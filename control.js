@@ -1,0 +1,16 @@
+var list = [1, 2, 3];
+var categories = ['sport', 'Car', 'It'];
+console.log('list');
+list.forEach(function (num) { return console.log(num.toFixed(2)); });
+console.log('categories');
+categories.forEach(function (str) { return console.log(str.includes('a')); });
+var listSquare = list.map(function (num) { return num * num; });
+console.log(listSquare);
+var result = categories.filter(function (str) { return str.length > 2; });
+console.log(result);
+var x;
+x = ["hello", 10];
+console.log(x[0].substr(1));
+x[3] = "word";
+x[5] = 100.25;
+console.log(x[5].toString());
